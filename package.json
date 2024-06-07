@@ -1,0 +1,41 @@
+{
+  "name": "apostrophe-storybook",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "build:apos": "NODE_ENV=production node apos.cjs @apostrophecms/asset:build"
+  },
+  "dependencies": {
+    "apostrophe": "^4.2.3",
+    "i18next": "^23.11.5",
+    "i18next-vue": "^4.0.0",
+    "vue": "^3.4.21",
+    "vue-i18n": "^9.13.1"
+  },
+  "devDependencies": {
+    "@chromatic-com/storybook": "^1.3.5",
+    "@storybook/addon-essentials": "^8.0.10",
+    "@storybook/addon-interactions": "^8.0.10",
+    "@storybook/addon-links": "^8.0.10",
+    "@storybook/blocks": "^8.0.10",
+    "@storybook/preset-scss": "^1.0.3",
+    "@storybook/test": "^8.0.10",
+    "@storybook/vue3": "^8.0.10",
+    "@storybook/vue3-vite": "^8.0.10",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "css-loader": "^7.1.1",
+    "sass": "^1.77.1",
+    "sass-loader": "^14.2.1",
+    "storybook": "^8.0.10",
+    "style-loader": "^4.0.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vue-tsc": "^2.0.6"
+  }
+}

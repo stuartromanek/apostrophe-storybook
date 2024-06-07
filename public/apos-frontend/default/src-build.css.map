@@ -1,0 +1,1 @@
+{"version":3,"file":"src-build.css","mappings":"AAAA,0BACE,W","sources":["webpack://apostrophe-storybook/./node_modules/apostrophe/modules/@apostrophecms/image-widget/ui/src/index.scss"],"sourcesContent":[".image-widget-placeholder {\n  width: 100%;\n}\n"],"names":[],"sourceRoot":""}
