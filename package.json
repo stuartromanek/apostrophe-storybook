@@ -13,8 +13,10 @@
   },
   "dependencies": {
     "apostrophe": "^4.2.3",
+    "cuid": "^3.0.0",
     "i18next": "^23.11.5",
     "i18next-vue": "^4.0.0",
+    "pinia": "^2.1.7",
     "vue": "^3.4.21",
     "vue-i18n": "^9.13.1"
   },

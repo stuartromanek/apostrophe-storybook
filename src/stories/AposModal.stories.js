@@ -10,8 +10,26 @@ export default {
  * to learn how to use render functions.
  */
 export const Primary = {
-  render: () => ({
+  render: (args) => ({
     components: { Modal },
-    template: '<Modal modal-title="hey nice modal" />',
-  })
+    template: '<Modal :modal="{ active: true }" modalId="lewifn" modalTitle="Fun" />',
+    setup() {
+      console.log('setup');
+      console.log(args);
+      return args;
+    },
+  }),
+  args: {
+    // modalTitle: 'hey nice modal',
+    active: true,
+    modal: {
+      'active': true
+    },
+    // props: {
+    //   modal: {
+    //     active: true
+    //   }
+    // },
+    // modalId: 'wefwef'
+  },
 };
